@@ -1,0 +1,753 @@
+{
+ "versione": 1,
+ "aggiornato": "2026-10-10",
+ "consigli": [
+  {
+   "id": "risc-19-gradi",
+   "categoria": "riscaldamento",
+   "testo": "In casa bastano 19 °C. Ogni grado in meno può far risparmiare fino al 10% di combustibile.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno",
+     "primavera"
+    ],
+    "meteo": [
+     "freddo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-valvole",
+   "categoria": "riscaldamento",
+   "testo": "Le valvole termostatiche sui termosifoni regolano la temperatura stanza per stanza e possono ridurre i consumi fino al 20%.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-manutenzione",
+   "categoria": "riscaldamento",
+   "testo": "Fai controllare la caldaia prima dell'inverno: un impianto ben regolato consuma e inquina meno, e la manutenzione è obbligatoria per legge.",
+   "quando": {
+    "stagioni": [
+     "autunno"
+    ],
+    "riscaldamento": [
+     "gas",
+     "stufa"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-finestre-notte",
+   "categoria": "riscaldamento",
+   "testo": "La sera chiudi persiane, tapparelle o tende pesanti: riduci il calore che si disperde dalle finestre durante la notte.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ],
+    "meteo": [
+     "freddo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-radiatori-liberi",
+   "categoria": "riscaldamento",
+   "testo": "Non coprire i termosifoni con mobili, tende o panni stesi: il calore resta intrappolato. Un pannello riflettente dietro il radiatore aiuta.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-arieggiare",
+   "categoria": "riscaldamento",
+   "testo": "Per cambiare l'aria bastano pochi minuti con le finestre spalancate: tenerle socchiuse a lungo disperde molto più calore.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ],
+    "meteo": [
+     "freddo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-orari",
+   "categoria": "riscaldamento",
+   "testo": "Rispetta le ore di accensione della tua zona climatica: il calore accumulato da pareti e pavimenti mantiene il comfort anche a impianto spento.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "risc-cronotermostato",
+   "categoria": "riscaldamento",
+   "testo": "Un cronotermostato programma l'accensione per orari e giorni: scalda casa quando ci sei, non quando sei fuori.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "risc-termoregolazione",
+   "categoria": "riscaldamento",
+   "testo": "La termoregolazione climatica adatta la temperatura dell'acqua dei termosifoni al tempo fuori: può limitare i consumi fino al 25%.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ],
+    "riscaldamento": [
+     "gas"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-condensazione",
+   "categoria": "riscaldamento",
+   "testo": "Se devi cambiare la caldaia, una a condensazione consuma fino al 22% di gas in meno rispetto a un modello tradizionale.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "primavera"
+    ],
+    "riscaldamento": [
+     "gas"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "risc-pompa-calore",
+   "categoria": "riscaldamento",
+   "testo": "Le pompe di calore ad alta efficienza sono oggi tra le soluzioni più convenienti per scaldare casa: ENEA ha uno strumento online (PDC-Tool) per valutarle.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "primavera"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "risc-checkup",
+   "categoria": "casa",
+   "testo": "Un check-up energetico della casa (diagnosi o APE) indica gli interventi più convenienti: si può arrivare a ridurre i consumi fino al 40%.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2025/energia-riscaldamenti-da-enea-1-app-e-10-consigli-per-bollette-piu-leggere.html"
+   }
+  },
+  {
+   "id": "casa-isolamento",
+   "categoria": "casa",
+   "testo": "Isolare tetto e soffitto può far risparmiare fino al 20% di energia; con il cappotto le dispersioni calano molto di più.",
+   "quando": {
+    "stagioni": [
+     "primavera",
+     "estate"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "casa-serramenti",
+   "categoria": "casa",
+   "testo": "Finestre con doppi vetri e telai a taglio termico riducono gli spifferi d'inverno e il caldo d'estate.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "est-28-gradi",
+   "categoria": "raffrescamento",
+   "testo": "Imposta il condizionatore a 26–28 °C: passare da 26 a 28 °C fa risparmiare circa il 25% di energia.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ],
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/caro-bollette-i-consigli-enea-per-consumi-estivi-intelligenti.html"
+   }
+  },
+  {
+   "id": "est-deumidifica",
+   "categoria": "raffrescamento",
+   "testo": "Spesso basta la funzione deumidificazione: con meno umidità il caldo si sente molto meno, e si consuma meno che raffreddando.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ],
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/caro-bollette-i-consigli-enea-per-consumi-estivi-intelligenti.html"
+   }
+  },
+  {
+   "id": "est-tapparelle",
+   "categoria": "raffrescamento",
+   "testo": "Nelle ore più calde abbassa tapparelle e persiane: tieni fuori il sole prima ancora di accendere il condizionatore.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ],
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/caro-bollette-i-consigli-enea-per-consumi-estivi-intelligenti.html"
+   }
+  },
+  {
+   "id": "est-filtri",
+   "categoria": "raffrescamento",
+   "testo": "Pulisci i filtri del condizionatore ogni due settimane quando lo usi molto: lavora meglio e consuma meno.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/caro-bollette-i-consigli-enea-per-consumi-estivi-intelligenti.html"
+   }
+  },
+  {
+   "id": "est-timer",
+   "categoria": "raffrescamento",
+   "testo": "Usa il timer e la modalità notte (sleep) del condizionatore, e tieni chiuse porte e finestre mentre è acceso.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ],
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/caro-bollette-i-consigli-enea-per-consumi-estivi-intelligenti.html"
+   }
+  },
+  {
+   "id": "est-classe",
+   "categoria": "raffrescamento",
+   "testo": "Se devi comprare un condizionatore, sceglilo inverter e in classe alta: un A+++ può consumare meno della metà di un classe D.",
+   "quando": {
+    "stagioni": [
+     "primavera",
+     "estate"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/caro-bollette-i-consigli-enea-per-consumi-estivi-intelligenti.html"
+   }
+  },
+  {
+   "id": "luce-led",
+   "categoria": "luce",
+   "testo": "Le lampadine LED consumano circa l'85% in meno delle vecchie a incandescenza e durano molto di più.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "luce-standby",
+   "categoria": "luce",
+   "testo": "Gli apparecchi in stand-by possono pesare fino al 10% sulla bolletta: spegnili del tutto con una ciabatta con interruttore.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "luce-pieno-carico",
+   "categoria": "luce",
+   "testo": "Avvia lavatrice e lavastoviglie solo a pieno carico: meno lavaggi, meno energia e meno acqua.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "luce-fasce",
+   "categoria": "luce",
+   "testo": "Se la tua offerta ha prezzi per fasce, usa lavatrice e lavastoviglie la sera dopo le 19, di notte o nel weekend (fasce F2 e F3).",
+   "quando": {},
+   "fonte": {
+    "nome": "ARERA",
+    "url": "https://www.arera.it/atlante-per-il-consumatore/elettricita/il-mercato-dellenergia/le-offerte-commerciali/cosa-sono-i-prezzi-per-fasce"
+   }
+  },
+  {
+   "id": "luce-frigo",
+   "categoria": "luce",
+   "testo": "Sbrina regolarmente frigorifero e congelatore e tienili lontani da forno e termosifoni: consumano meno.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "luce-classe",
+   "categoria": "luce",
+   "testo": "Quando cambi un elettrodomestico guarda l'etichetta energetica: tra le classi migliori e le peggiori la differenza di spesa può arrivare al 40%.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "luce-naturale",
+   "categoria": "luce",
+   "testo": "Di giorno sfrutta la luce naturale e spegni sempre la luce quando esci da una stanza.",
+   "quando": {
+    "stagioni": [
+     "primavera",
+     "estate"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "acqua-doccia",
+   "categoria": "acqua",
+   "testo": "Preferisci la doccia al bagno: si risparmiano fino a 1.200 litri l'anno. Una doccia di 5 minuti usa al massimo 40 litri, la vasca 100–160.",
+   "quando": {
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-rubinetto-gocciola",
+   "categoria": "acqua",
+   "testo": "Un rubinetto che gocciola può perdere fino a 5 litri al giorno: controlla le perdite e fai riparare subito.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-denti",
+   "categoria": "acqua",
+   "testo": "Chiudi il rubinetto mentre ti lavi i denti: lasciandolo aperto si sprecano fino a 30 litri, chiudendolo ne bastano 1,5.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-sciacquone",
+   "categoria": "acqua",
+   "testo": "Lo sciacquone a doppio tasto può far risparmiare anche 100 litri al giorno rispetto a quello a pulsante singolo.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-riuso",
+   "categoria": "acqua",
+   "testo": "Riusa l'acqua di cottura della pasta o del lavaggio delle verdure per sciacquare i piatti o innaffiare le piante.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ],
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-irrigazione",
+   "categoria": "acqua",
+   "testo": "Innaffia la sera con sistemi a goccia o temporizzati: evapora meno acqua e ne serve meno.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ],
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-auto",
+   "categoria": "acqua",
+   "testo": "Non lavare l'auto con l'acqua di casa: si consumano 400–500 litri. Meglio un autolavaggio.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-vacanze",
+   "categoria": "acqua",
+   "testo": "Se parti per qualche giorno chiudi il rubinetto generale dell'acqua: eviti sprechi e danni da perdite.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-rompigetto",
+   "categoria": "acqua",
+   "testo": "Monta rompigetto aerati sui rubinetti: riducono il flusso senza peggiorare il lavaggio.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-piovana",
+   "categoria": "acqua",
+   "testo": "Raccogli l'acqua piovana per orto e giardino: con un tetto di circa 80 m² se ne raccoglie quanta ne serve a una persona in un anno.",
+   "quando": {
+    "stagioni": [
+     "primavera",
+     "autunno"
+    ],
+    "meteo": [
+     "pioggia"
+    ]
+   },
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/acqua-siccita-i-20-consigli-enea-per-il-risparmio-idrico-ed-energetico.html"
+   }
+  },
+  {
+   "id": "acqua-calda",
+   "categoria": "gas",
+   "testo": "Chiudi l'acqua mentre ti insaponi: risparmi acqua e anche il gas o l'elettricità che servono a scaldarla.",
+   "quando": {},
+   "fonte": {
+    "nome": "ENEA",
+    "url": "https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2022/energia-caro-bollette-i-20-consigli-enea-per-risparmiare-e-aiutare-l-ambiente.html"
+   }
+  },
+  {
+   "id": "auto-pressione",
+   "categoria": "auto",
+   "testo": "Controlla la pressione delle gomme a freddo almeno una volta al mese e prima dei viaggi lunghi: gomme sgonfie fanno consumare di più.",
+   "quando": {},
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-partire-subito",
+   "categoria": "auto",
+   "testo": "Non scaldare il motore da fermo: parti subito e con calma. A motore freddo da fermo si consuma e si inquina di più.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ],
+    "meteo": [
+     "freddo"
+    ]
+   },
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-marce",
+   "categoria": "auto",
+   "testo": "Passa presto alla marcia più alta senza tirare le marce intermedie; se l'auto ha l'indicatore di cambio marcia, seguilo.",
+   "quando": {
+    "cambio": [
+     "manuale"
+    ]
+   },
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-velocita",
+   "categoria": "auto",
+   "testo": "Il consumo cresce molto con la velocità: tieni un'andatura moderata e costante, anche con il cruise control.",
+   "quando": {},
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-decelerare",
+   "categoria": "auto",
+   "testo": "Per rallentare rilascia l'acceleratore con la marcia inserita: in quella fase il motore non consuma carburante.",
+   "quando": {
+    "cambio": [
+     "manuale"
+    ]
+   },
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-carico",
+   "categoria": "auto",
+   "testo": "Togli portapacchi e box dal tetto quando non servono e non portarti dietro pesi inutili: peggiorano consumi e aerodinamica.",
+   "quando": {},
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-clima",
+   "categoria": "auto",
+   "testo": "Il climatizzatore aumenta i consumi: quando si può usa le bocchette di aerazione. In città sotto i 50 km/h vanno bene anche i finestrini.",
+   "quando": {
+    "stagioni": [
+     "estate"
+    ],
+    "meteo": [
+     "caldo"
+    ]
+   },
+   "fonte": {
+    "nome": "ACI",
+    "url": "https://www.lautomobile.aci.it/come-fare-per/guida-efficiente-e-risparmiosa-consigli-per-ottimizzare-consumi-e-costi/"
+   }
+  },
+  {
+   "id": "auto-start-stop",
+   "categoria": "auto",
+   "testo": "Spegni il motore nelle soste e lascia attivo lo Start & Stop se l'auto ce l'ha.",
+   "quando": {},
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-dispositivi",
+   "categoria": "auto",
+   "testo": "Lunotto termico, fari supplementari e ventola assorbono corrente e fanno consumare più carburante: usali solo il tempo necessario.",
+   "quando": {
+    "stagioni": [
+     "autunno",
+     "inverno"
+    ],
+    "meteo": [
+     "freddo",
+     "pioggia"
+    ]
+   },
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-gomme-invernali",
+   "categoria": "auto",
+   "testo": "Usa le gomme invernali solo nella stagione in cui servono: fuori stagione aumentano consumi e rumore.",
+   "quando": {
+    "stagioni": [
+     "primavera"
+    ]
+   },
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-pioggia",
+   "categoria": "auto",
+   "testo": "Con la pioggia aumenta la distanza di sicurezza: una guida più regolare, senza frenate e ripartenze brusche, consuma anche meno.",
+   "quando": {
+    "meteo": [
+     "pioggia"
+    ]
+   },
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-manutenzione",
+   "categoria": "auto",
+   "testo": "Fai i tagliandi previsti dal costruttore e cambia l'olio al momento giusto: un'auto curata consuma meno.",
+   "quando": {},
+   "fonte": {
+    "nome": "Ministero delle Imprese (Guida CO₂ 2025)",
+    "url": "https://www.mimit.gov.it/images/stories/normativa/allegati/Guida_CO2_ed_2025.pdf"
+   }
+  },
+  {
+   "id": "auto-percorso",
+   "categoria": "auto",
+   "testo": "Quando puoi evita strade e orari di punta, e chiediti se per quel tragitto serve davvero l'auto.",
+   "quando": {},
+   "fonte": {
+    "nome": "ACI",
+    "url": "https://www.lautomobile.aci.it/come-fare-per/guida-efficiente-e-risparmiosa-consigli-per-ottimizzare-consumi-e-costi/"
+   }
+  },
+  {
+   "id": "auto-automatico-eco",
+   "categoria": "auto",
+   "testo": "Con il cambio automatico, nel traffico cittadino scegli la modalità Eco.",
+   "quando": {
+    "cambio": [
+     "automatico"
+    ]
+   },
+   "fonte": {
+    "nome": "ACI",
+    "url": "https://www.lautomobile.aci.it/come-fare-per/guida-efficiente-e-risparmiosa-consigli-per-ottimizzare-consumi-e-costi/"
+   }
+  },
+  {
+   "id": "auto-ibrida-rilascio",
+   "categoria": "auto",
+   "testo": "Con l'ibrida rilascia l'acceleratore in anticipo prima di fermarti: la frenata rigenerativa ricarica la batteria.",
+   "quando": {
+    "alimentazione": [
+     "ibrida"
+    ]
+   },
+   "fonte": {
+    "nome": "ACI",
+    "url": "https://www.lautomobile.aci.it/come-fare-per/guida-efficiente-e-risparmiosa-consigli-per-ottimizzare-consumi-e-costi/"
+   }
+  },
+  {
+   "id": "auto-ibrida-citta",
+   "categoria": "auto",
+   "testo": "La full hybrid dà il meglio in città: nel traffico lento lavora molto in elettrico.",
+   "quando": {
+    "alimentazione": [
+     "ibrida"
+    ]
+   },
+   "fonte": {
+    "nome": "ACI",
+    "url": "https://www.lautomobile.aci.it/come-fare-per/guida-efficiente-e-risparmiosa-consigli-per-ottimizzare-consumi-e-costi/"
+   }
+  }
+ ]
+}

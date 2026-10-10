@@ -1,0 +1,42 @@
+{
+ "versione": 1,
+ "verificato_il": "2026-10-10",
+ "prossima_verifica": "2027-09-01",
+ "fonte": {
+  "nome": "DPR 74/2013, art. 4",
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2013-04-16;74"
+ },
+ "nota": "Il sindaco può modificare date e ore con un'ordinanza (art. 5). Accensione consentita tra le 5 e le 23. Temperatura massima 20 °C con 2 °C di tolleranza.",
+ "zone": {
+  "A": {
+   "dal": "12-01",
+   "al": "03-15",
+   "ore": 6
+  },
+  "B": {
+   "dal": "12-01",
+   "al": "03-31",
+   "ore": 8
+  },
+  "C": {
+   "dal": "11-15",
+   "al": "03-31",
+   "ore": 10
+  },
+  "D": {
+   "dal": "11-01",
+   "al": "04-15",
+   "ore": 12
+  },
+  "E": {
+   "dal": "10-15",
+   "al": "04-15",
+   "ore": 14
+  },
+  "F": {
+   "dal": null,
+   "al": null,
+   "ore": null
+  }
+ }
+}
