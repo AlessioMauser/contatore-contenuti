@@ -6,27 +6,46 @@ Non contengono dati personali: qui va solo ciò che può vedere chiunque.
 
 ## eventi.json — eventi dell'OdV (calendario)
 
+Le istruzioni e un esempio da copiare sono **dentro il file stesso**, nei campi `_come_si_compila` e
+`_esempio_da_copiare` (l'app ignora i campi che iniziano con `_`).
+
+### Aggiungere un evento dal sito di GitHub (anche da telefono)
+
+1. Apri https://github.com/AlessioMauser/contatore-contenuti e accedi.
+2. Clicca su **eventi.json**, poi sull'icona della **matita** (in alto a destra, "Edit this file").
+3. Copia il blocco `_esempio_da_copiare` dalla `{` alla `}` compresa.
+4. Incollalo dentro `"eventi": [ ]`, tra le parentesi quadre. Se c'è già un evento, separa i blocchi con una virgola.
+5. Cambia i valori tra virgolette e aggiorna `"aggiornato"` con la data di oggi.
+6. Clicca **Commit changes…**, scrivi due parole (es. "Sportello 12 novembre") e conferma.
+7. Dopo circa un minuto il sito si aggiorna: alla prossima apertura l'app mostra l'evento nel calendario.
+
+Esempio di lista con due eventi:
+
 ```json
-{
- "versione": 1,
- "aggiornato": "2026-10-10",
  "eventi": [
   {
-   "id": "sportello-2026-10-15",
+   "id": "2026-11-12-sportello-energia",
    "titolo": "Sportello energia",
-   "inizio": "2026-10-15T18:00",
-   "fine": "2026-10-15T19:30",
+   "inizio": "2026-11-12T18:00",
+   "fine": "2026-11-12T19:30",
    "luogo": "Sala civica",
-   "descrizione": "Porta le tue bollette: ti aiutiamo a leggerle.",
-   "link": "https://…"
+   "descrizione": "Porta le tue ultime bollette: ti aiutiamo a leggerle.",
+   "link": "https://www.example.org/eventi/sportello"
+  },
+  {
+   "id": "2026-11-26-incontro-bolletta",
+   "titolo": "Incontro: leggere la bolletta",
+   "inizio": "2026-11-26T21:00",
+   "luogo": "Online"
   }
  ]
-}
 ```
 
-- `id` deve essere unico (va bene data + nome).
-- Le date sono nel formato `AAAA-MM-GGTHH:MM`, ora italiana. `fine`, `luogo`, `descrizione` e `link` sono facoltativi.
-- Gli eventi passati si possono lasciare: l'app mostra solo quelli futuri e del mese.
+Regole:
+- `id` unico e senza spazi; `titolo` e `inizio` obbligatori; gli altri campi facoltativi.
+- Date `AAAA-MM-GGTHH:MM` in ora italiana; per un giorno intero solo `AAAA-MM-GG`.
+- Attenzione a virgole e virgolette: se il file ha un errore l'app continua a usare la versione precedente.
+  Per controllarlo incolla il testo su https://jsonlint.com prima di salvare.
 
 ## consigli.json — consigli
 

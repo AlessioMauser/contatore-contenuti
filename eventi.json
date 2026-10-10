@@ -1,4 +1,26 @@
 {
+ "_come_si_compila": [
+  "Questo file contiene gli eventi di Consapevolezza Energetica mostrati nel calendario dell'app Contatore.",
+  "1) Copia il blocco in _esempio_da_copiare (dalla { alla } compresa).",
+  "2) Incollalo dentro la lista \"eventi\" qui sotto, tra le parentesi quadre [ ].",
+  "3) Se nella lista c'è già un evento, separa i due blocchi con una virgola: { ... }, { ... }",
+  "4) Cambia i valori tra virgolette. Non cambiare i nomi dei campi (titolo, inizio, ...).",
+  "5) id: unico, senza spazi, ad esempio data + nome: 2026-11-12-sportello",
+  "6) inizio e fine: formato AAAA-MM-GGTHH:MM, ora italiana (es. 2026-11-12T18:00). Per un evento di un giorno intero: solo AAAA-MM-GG.",
+  "7) fine, luogo, descrizione e link sono facoltativi: se non servono cancella la riga intera (attenzione alla virgola della riga prima).",
+  "8) Aggiorna \"aggiornato\" con la data di oggi e salva con 'Commit changes'.",
+  "9) Prima di salvare puoi controllare il file su https://jsonlint.com: se c'è un errore l'app continua a mostrare gli eventi della versione precedente.",
+  "Gli eventi passati si possono lasciare: l'app li mostra solo nel loro mese."
+ ],
+ "_esempio_da_copiare": {
+  "id": "2026-11-12-sportello-energia",
+  "titolo": "Sportello energia",
+  "inizio": "2026-11-12T18:00",
+  "fine": "2026-11-12T19:30",
+  "luogo": "Sala civica",
+  "descrizione": "Porta le tue ultime bollette: ti aiutiamo a leggerle e a capire dove risparmiare.",
+  "link": "https://www.example.org/eventi/sportello-energia"
+ },
  "versione": 1,
  "aggiornato": "2026-10-10",
  "eventi": []
